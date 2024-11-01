@@ -6,13 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-<<<<<<< HEAD
       "cwd": "/Users/kgumusta/Desktop/libft",
       "program": "/Users/kgumusta/Desktop/libft/build/Debug/outDebug"
-=======
-      "cwd": "/Users/kgumusta/Desktop/Mac-libft-master",
-      "program": "/Users/kgumusta/Desktop/Mac-libft-master/build/Debug/outDebug"
->>>>>>> hemen hemen hazir
     }
   ]
 }

@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/11/02 01:52:56 by kgumusta          #+#    #+#              #
+#    Updated: 2024/11/02 01:52:58 by kgumusta         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libft.a
 
 AR = ar rcs
@@ -43,7 +55,7 @@ OBJS = $(SRCS:.c=.o)
 
 $(NAME): $(OBJS)
 	@$(AR) $(NAME) $(OBJS)
-	@echo "Derleme başarılı"
+	@echo "Succesfull"
 
 %.o: %.c
 	@cc $(FLAGS) -c $< -o $@
@@ -52,11 +64,11 @@ all: $(NAME)
 
 clean:
 	@rm -f $(OBJS)
-	@echo "Temizlendi"
+	@echo "Cleaned"
 
 fclean: clean
 	@rm -f $(NAME)
-	@echo "Tertemiz oldu"
+	@echo "All Cleaned"
 
 re: fclean all
 

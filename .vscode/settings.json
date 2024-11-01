@@ -1,23 +1,10 @@
 {
-  "C_Cpp_Runner.msvcBatchPath": "",
-  "files.associations": {
-    "libft.h": "c",
-    "stdlib.h": "c",
-    "__locale": "cpp",
-    "atomic": "cpp",
-    "cstdlib": "cpp",
-    "locale": "cpp",
-    "ostream": "cpp",
-    "typeinfo": "cpp",
-    "algorithm": "cpp",
-    "complex": "cpp",
-    "new": "cpp"
-  },
   "C_Cpp_Runner.cCompilerPath": "clang",
   "C_Cpp_Runner.cppCompilerPath": "clang++",
   "C_Cpp_Runner.debuggerPath": "lldb",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",

@@ -6,7 +6,7 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 11:01:06 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/10/31 10:55:35 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/02 01:52:02 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t	start_i;
-	size_t	end_i;
+	int	start_i;
+	int	end_i;
 
 	start_i = 0;
 	end_i = ft_strlen(s1);

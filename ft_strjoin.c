@@ -6,7 +6,7 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:59:37 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/11/01 20:29:30 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/02 02:07:46 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	char	*str2;
 	char	*s3;
 
+	if (!s1 || !s2)
+		return (NULL);
 	str1 = (char *)s1;
 	str2 = (char *)s2;
 	s3 = (char *)malloc(ft_strlen(str1) + ft_strlen(str2) + 1);
