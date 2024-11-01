@@ -6,11 +6,12 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:59:16 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/10/31 10:49:33 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/01 19:07:22 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strdup(const char *src)
 {

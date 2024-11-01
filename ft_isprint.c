@@ -6,11 +6,9 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:56:09 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/10/31 10:48:59 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/01 17:47:44 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {

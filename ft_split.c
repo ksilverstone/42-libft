@@ -6,11 +6,12 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:58:20 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/10/31 10:53:04 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/01 20:27:08 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 static int	wordcounter(char const *s, char sep)
 {
@@ -41,6 +42,14 @@ static int	wordlen(char const *s, char sep)
 	return (len);
 }
 
+static	int	ft_free(char **splited, int i)
+{
+	while (i > 0)
+		free(splited[--i]);
+	free(splited);
+	return (0);
+}
+
 char	**ft_split(char const *s, char sep)
 {
 	char	**splited;
@@ -59,6 +68,9 @@ char	**ft_split(char const *s, char sep)
 		if (*s && *s != sep)
 		{
 			splited[i] = ft_substr(s, 0, wordlen(s, sep));
+			if (!splited[i])
+				if (!ft_free(splited, i))
+					return (0);
 			s += wordlen(s, sep);
 			i ++;
 		}

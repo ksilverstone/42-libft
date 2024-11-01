@@ -6,11 +6,9 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:55:28 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/10/28 16:03:40 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/01 17:47:27 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isascii(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 22:16:30 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/10/31 10:50:57 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/01 19:04:21 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include <stddef.h>
 
 size_t	ft_strlen(const char *s)
 {

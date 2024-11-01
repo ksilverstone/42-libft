@@ -6,11 +6,11 @@
 /*   By: kgumusta <kgumusta@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 09:56:58 by kgumusta          #+#    #+#             */
-/*   Updated: 2024/10/28 16:03:48 by kgumusta         ###   ########.fr       */
+/*   Updated: 2024/11/01 19:01:16 by kgumusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
